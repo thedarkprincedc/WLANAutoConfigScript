@@ -35,7 +35,7 @@ netsh wlan add profile filename="profiles\mykeuka W7.xml" user=all
 echo We will now display the Profile for MyKeuka  
 netsh wlan sho profile name="MyKeuka"
 cls
-echo MyKeuka Wireless Profile for Windows 7 has been added sucessfully
+echo Wireless Profile for Windows 7 has been added sucessfully
 goto :end
 
 :Vista
@@ -44,7 +44,7 @@ netsh wlan add profile filename="profiles\mykeuka Vista.xml" user=all
 echo We will now display the Profile for MyKeuka  
 netsh wlan sho profile name="MyKeuka"
 cls
-echo MyKeuka Wireless Profile for Windows Vista has been added sucessfully
+echo Wireless Profile for Windows Vista has been added sucessfully
 goto :end
 
 :end
