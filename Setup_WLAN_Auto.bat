@@ -32,7 +32,7 @@ IF %OSVersion%==Vista goto :Vista
 :Win7
 echo Begin Import  
 netsh wlan add profile filename="profiles\mykeuka W7.xml" user=all
-echo We will now display the Profile for MyKeuka  
+echo We will now display the WLAN Profile 
 netsh wlan sho profile name="MyKeuka"
 cls
 echo Wireless Profile for Windows 7 has been added sucessfully
@@ -41,7 +41,7 @@ goto :end
 :Vista
 echo Begin Import  
 netsh wlan add profile filename="profiles\mykeuka Vista.xml" user=all
-echo We will now display the Profile for MyKeuka  
+echo We will now display the WLAN Profile  
 netsh wlan sho profile name="MyKeuka"
 cls
 echo Wireless Profile for Windows Vista has been added sucessfully
